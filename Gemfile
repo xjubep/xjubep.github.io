@@ -7,3 +7,6 @@ gemspec
 group :test do
   gem "html-proofer", "~> 5.0"
 end
+
+gem 'jekyll-admin', group: :jekyll_plugins
+gem "sinatra", ">= 3", "< 4"
